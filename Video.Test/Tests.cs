@@ -7,7 +7,7 @@ namespace Video.Test
         [Test]
         public async Task BugReproVlc()
         {
-            await BugRepro.GenerateCollage(new Uri(@"D:\Test\video\movies\Scarface.mp4"));
+            await BugRepro.GenerateCollage(new Uri(@"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"));
         }
     }
 }
